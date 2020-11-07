@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microMantra", "microMantra.csproj", "{3A2AEE71-7E7C-424A-865A-0E840512C5BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A2AEE71-7E7C-424A-865A-0E840512C5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2AEE71-7E7C-424A-865A-0E840512C5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2AEE71-7E7C-424A-865A-0E840512C5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2AEE71-7E7C-424A-865A-0E840512C5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBFAA7A2-D192-4C5E-BF3E-C40F90FD9894}
+	EndGlobalSection
+EndGlobal
