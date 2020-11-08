@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using microMantra.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,7 +28,8 @@ namespace microMantra
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<vistorContext>(k => k.UseSqlServer("Server = LAPTOP-RL56EFEE\\SQLEXPRESS; Database = mathDB; Trusted_Connection = True; MultipleActiveResultSets = true"));
+            services.AddDbContext<vistorContext>(k => k.UseSqlServer("Server=169.254.96.36,1433;Database=mathDB;User ID=sayini;Password=TEKstar#2020;MultipleActiveResultSets=true"));
+            services.AddTransient<IVisitorRepository, vistorRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
